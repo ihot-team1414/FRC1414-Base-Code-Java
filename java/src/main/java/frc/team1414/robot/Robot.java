@@ -42,7 +42,7 @@ public class Robot extends TimedRobot {
         //Print auto data to smart dashboard
         SmartDashboard.putData("Auto Selector", autoSelector);
     }
-
+    
     @Override
     public void disabledInit() {
     }
@@ -93,7 +93,7 @@ public class Robot extends TimedRobot {
     public void testPeriodic() { }
 
     public void updateSmartdashboard() {
-        //Print information to smart dashboard
+        //Prints new information to smart dashboard
         SmartDashboard.putNumber("Variable name", 1);
     }
 }
